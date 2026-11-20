@@ -31,7 +31,7 @@
       ],
       "version": "1.0",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f1xx_cubemx_ucos-ii.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f1xx_cubemx_ucos-ii.ept"
     },
     {
       "file_name": "stm32_ucos-iii.ept",
@@ -41,7 +41,7 @@
       ],
       "version": "1.4",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32_ucos-iii.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32_ucos-iii.ept"
     },
     {
       "file_name": "stm32h750vb_FatFs_FreeRTOS.ept",
@@ -51,7 +51,7 @@
       ],
       "version": "1.2",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32h750vb_FatFs_FreeRTOS.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32h750vb_FatFs_FreeRTOS.ept"
     },
     {
       "file_name": "WeAct_H750_QSPI.eide-template",
@@ -61,7 +61,7 @@
       ],
       "version": "1.3",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/WeAct_H750_QSPI.eide-template"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/WeAct_H750_QSPI.eide-template"
     },
     {
       "file_name": "WeAct_H750_bootloader.eide-template",
@@ -71,7 +71,7 @@
       ],
       "version": "1.2",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/WeAct_H750_bootloader.eide-template"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/WeAct_H750_bootloader.eide-template"
     },
     {
       "file_name": "stm32f407xx_cpp_demo.eide-template",
@@ -81,7 +81,7 @@
       ],
       "version": "1.2",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f407xx_cpp_demo.eide-template"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f407xx_cpp_demo.eide-template"
     },
     {
       "file_name": "stm32f030xx_cpp_demo.ept",
@@ -91,7 +91,7 @@
       ],
       "version": "1.3",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f030xx_cpp_demo.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f030xx_cpp_demo.ept"
     },
     {
       "file_name": "stm32f100_mdvl_cpp_demo.eide-template",
@@ -101,7 +101,7 @@
       ],
       "version": "1.2",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f100_mdvl_cpp_demo.eide-template"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f100_mdvl_cpp_demo.eide-template"
     },
     {
       "file_name": "stm32f10x_hd_cpp_demo.eide-template",
@@ -111,7 +111,7 @@
       ],
       "version": "1.2",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f10x_hd_cpp_demo.eide-template"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f10x_hd_cpp_demo.eide-template"
     },
     {
       "file_name": "stm32f10x_md_cpp_demo.eide-template",
@@ -121,7 +121,7 @@
       ],
       "version": "1.2",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f10x_md_cpp_demo.eide-template"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f10x_md_cpp_demo.eide-template"
     },
     {
       "file_name": "stm8s103f3_quickstart_cosmic.ept",
@@ -131,7 +131,7 @@
       ],
       "version": "1.2",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm8s103f3_quickstart_cosmic.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm8s103f3_quickstart_cosmic.ept"
     },
     {
       "file_name": "stm8s103f3_quickstart_iar.ept",
@@ -141,7 +141,7 @@
       ],
       "version": "1.4",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm8s103f3_quickstart_iar.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm8s103f3_quickstart_iar.ept"
     },
     {
       "file_name": "stm8s103f3_quickstart_sdcc.ept",
@@ -151,7 +151,7 @@
       ],
       "version": "1.5",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm8s103f3_quickstart_sdcc.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm8s103f3_quickstart_sdcc.ept"
     },
     {
       "file_name": "stm32f1xx_blink_demo.ept",
@@ -161,7 +161,7 @@
       ],
       "version": "1.5",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f1xx_blink_demo.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f1xx_blink_demo.ept"
     },
     {
       "file_name": "stm32f1xx_cubemx.ept",
@@ -171,7 +171,7 @@
       ],
       "version": "1.4",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f1xx_cubemx.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f1xx_cubemx.ept"
     },
     {
       "file_name": "stm32f4xx_cubemx.ept",
@@ -181,7 +181,7 @@
       ],
       "version": "1.5",
       "author": "github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f4xx_cubemx.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f4xx_cubemx.ept"
     },
     {
       "file_name": "stm32_ucosii_gcc.ept",
@@ -191,7 +191,7 @@
       ],
       "version": "1.2",
       "author": "Mecc,github0null",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32_ucosii_gcc.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32_ucosii_gcc.ept"
     },
     {
       "file_name": "stm32_ucosii_armcc.ept",
@@ -201,7 +201,7 @@
       ],
       "version": "1.0",
       "author": "Mecc",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32_ucosii_armcc.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32_ucosii_armcc.ept"
     },
     {
       "file_name": "stm32_rtx_armcc.ept",
@@ -211,7 +211,7 @@
       ],
       "version": "1.0",
       "author": "Mecc",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32_rtx_armcc.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32_rtx_armcc.ept"
     },
     {
       "file_name": "stm32_rtx_gcc.ept",
@@ -221,7 +221,7 @@
       ],
       "version": "1.0",
       "author": "Mecc",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32_rtx_gcc.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32_rtx_gcc.ept"
     },
     {
       "file_name": "stm32f4xx_rtx_gcc.ept",
@@ -231,7 +231,7 @@
       ],
       "version": "1.0",
       "author": "Mecc",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f4xx_rtx_gcc.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f4xx_rtx_gcc.ept"
     },
     {
       "file_name": "stm32f4xx_gcc.ept",
@@ -241,7 +241,7 @@
       ],
       "version": "1.0",
       "author": "Mecc",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32f4xx_gcc.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f4xx_gcc.ept"
     },
     {
       "file_name": "stm32_rtthread_armcc.ept",
@@ -251,7 +251,7 @@
       ],
       "version": "1.0",
       "author": "Mecc",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32_rtthread_armcc.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32_rtthread_armcc.ept"
     },
     {
       "file_name": "stm32_rtthread_gcc.ept",
@@ -261,7 +261,7 @@
       ],
       "version": "1.0",
       "author": "Mecc",
-      "download_url": "https://raw.githubusercontent.com/github0null/eide-templates/master/stm32_rtthread_gcc.ept"
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32_rtthread_gcc.ept"
     }
   ]
 }
