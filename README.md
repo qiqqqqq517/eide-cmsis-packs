@@ -51,7 +51,7 @@ $x.index.pindex.pdsc | Where-Object { $_.name -match 'STM32' -or $_.vendor -matc
 ```powershell
 $ua = "Mozilla/5.0"
 curl.exe -sSL -A $ua -o official_index.json "https://raw-github.em-ide.com/github0null/eide-templates/master/index.json"
-# 用 merge_index.py（本地 D:\EmbedDev\tmp\merge_index.py）合并后再提交
+# 用 merge_index.py（本机 D:\EmbedDev\scripts\merge_index.py，需先把官方索引落到 D:\EmbedDev\tmp\official_index.json）合并后再提交
 ```
 
 ## 许可证
