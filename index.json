@@ -1,45 +1,476 @@
 {
   "category_map": {
-    "STM32": {
-      "display_name": "STM32",
-      "description": "STM32 全系列模板（含 STM32H723 HAL 快速开始）"
+    "MCU": {
+      "display_name": "MCU",
+      "description": "按微控制器型号分类的模板（Templates classified by mcu models）"
+    },
+    "MCU/AVR": {
+      "display_name": "AVR",
+      "description": ""
+    },
+    "MCU/AVR/ATmega": {
+      "display_name": "ATmega",
+      "description": ""
+    },
+    "MCU/8051": {
+      "display_name": "8051",
+      "description": "The Universal 8051"
+    },
+    "MCU/WCH": {
+      "display_name": "WCH",
+      "description": "沁恒"
+    },
+    "MCU/WCH/8051": {
+      "display_name": "8051",
+      "description": ""
+    },
+    "MCU/WCH/RISC-V": {
+      "display_name": "RISC-V",
+      "description": "RISC-V Series"
+    },
+    "MCU/WCH/ARM": {
+      "display_name": "ARM",
+      "description": "ARM Series"
+    },
+    "MCU/HLK": {
+      "display_name": "HLK",
+      "description": "海凌科"
+    },
+    "MCU/HLK/W80X": {
+      "display_name": "HLK W80X MCU",
+      "description": "W801, W806 ..."
+    },
+    "MCU/STC": {
+      "display_name": "STC",
+      "description": "宏晶"
+    },
+    "MCU/STC/STC15": {
+      "display_name": "STC15",
+      "description": "STC15 Series"
+    },
+    "MCU/STC/STC8": {
+      "display_name": "STC8",
+      "description": "STC8 Series"
+    },
+    "MCU/ES": {
+      "display_name": "EastSoft",
+      "description": "东软载波"
+    },
+    "MCU/ES/M0": {
+      "display_name": "Cortex-M0",
+      "description": ""
+    },
+    "MCU/Nuvoton": {
+      "display_name": "Nuvoton",
+      "description": "新唐"
+    },
+    "MCU/Nuvoton/8051": {
+      "display_name": "8051",
+      "description": ""
+    },
+    "MCU/Nuvoton/8051/N7XE": {
+      "display_name": "N7xE",
+      "description": ""
+    },
+    "MCU/Nuvoton/8051/MS51": {
+      "display_name": "MS51",
+      "description": ""
+    },
+    "MCU/Nuvoton/M0": {
+      "display_name": "Cortex-M0",
+      "description": ""
+    },
+    "MCU/ST": {
+      "display_name": "STMicroelectronics",
+      "description": "意法半导体"
+    },
+    "MCU/ST/STM8/STM8S": {
+      "display_name": "STM8S",
+      "description": ""
+    },
+    "MCU/ST/STM8/STM8L": {
+      "display_name": "STM8L",
+      "description": ""
+    },
+    "MCU/ST/STM32/STM32G0": {
+      "display_name": "STM32G0",
+      "description": "G0 Series"
+    },
+    "MCU/ST/STM32/STM32F1": {
+      "display_name": "STM32F1",
+      "description": "F1 Series"
+    },
+    "MCU/ST/STM32/STM32F4": {
+      "display_name": "STM32F4",
+      "description": "F4 Series"
+    },
+    "MCU/ST/STM32/STM32H7": {
+      "display_name": "STM32H7",
+      "description": "H7 Series"
+    },
+    "MCU/ST/STM32/C++": {
+      "display_name": "C++ SDK",
+      "description": "with stm32plus c++ library"
+    },
+    "MCU/HDSC": {
+      "display_name": "HDSC",
+      "description": "华大"
+    },
+    "MCU/HDSC/HC32L": {
+      "display_name": "HC32L",
+      "description": "Low-power"
+    },
+    "MCU/HDSC/HC32F": {
+      "display_name": "HC32F",
+      "description": ""
+    },
+    "MCU/HDSC/HC32M": {
+      "display_name": "HC32M",
+      "description": "Motor"
+    },
+    "MCU/HK": {
+      "display_name": "HK",
+      "description": "航顺"
+    },
+    "MCU/HK/HK32": {
+      "display_name": "HK32",
+      "description": "32 Bit MCU"
+    },
+    "MCU/HK/HK32/F0": {
+      "display_name": "HK32F0",
+      "description": "Cortex-M0 Series"
+    },
+    "MCU/PIC": {
+      "display_name": "PIC",
+      "description": "Microchip"
+    },
+    "MCU/PIC/PIC14": {
+      "display_name": "PIC14",
+      "description": "PIC 14bit"
+    },
+    "MCU/PIC/PIC16": {
+      "display_name": "PIC16",
+      "description": "PIC 16bit"
+    },
+    "MCU/PIC/PIC32": {
+      "display_name": "PIC32",
+      "description": "PIC 32bit"
+    },
+    "MCU/Padauk": {
+      "display_name": "Padauk",
+      "description": "应广"
+    },
+    "MCU/Padauk/MTP": {
+      "display_name": "MTP",
+      "description": "PF[S|C] Series"
+    },
+    "MCU/PuYa": {
+      "display_name": "PuYa",
+      "description": "普冉"
+    },
+    "MCU/PuYa/F0": {
+      "display_name": "PY32F0",
+      "description": "PY32F0 Series"
+    },
+    "MCU/MindMotion": {
+      "display_name": "MindMotion",
+      "description": "灵动"
+    },
+    "MCU/MindMotion/MM32F": {
+      "display_name": "MM32F",
+      "description": ""
+    },
+    "MCU/MindMotion/MM32L": {
+      "display_name": "MM32L",
+      "description": "Low-power"
+    },
+    "MCU/GD32": {
+      "display_name": "GD32",
+      "description": "GigaDevice"
+    },
+    "MCU/GD32/F1": {
+      "display_name": "F1",
+      "description": "GD32F1xx"
+    },
+    "MCU/GD32/RISCV": {
+      "display_name": "RISC-V",
+      "description": "GD32 RISC-V"
+    },
+    "MCU/GD32/RISCV/F1": {
+      "display_name": "F1",
+      "description": "GD32VF1xx"
+    },
+    "MCU/GD32/RISCV/W5": {
+      "display_name": "W5",
+      "description": "GD32VW553"
+    },
+    "MCU/NXP": {
+      "display_name": "NXP",
+      "description": ""
+    },
+    "MCU/Nordic": {
+      "display_name": "Nordic Semiconductor",
+      "description": ""
+    },
+    "MCU/Nordic/nRF52": {
+      "display_name": "nRF52 Series",
+      "description": ""
+    },
+    "MCU/PS": {
+      "display_name": "PS",
+      "description": "芯源半导体"
+    },
+    "MCU/PS/CW32": {
+      "display_name": "CW32xx Series",
+      "description": ""
+    },
+    "MCU/Nations": {
+      "display_name": "Nations",
+      "description": "国民技术"
+    },
+    "MCU/Nations/M0": {
+      "display_name": "M0",
+      "description": "Cortex-M0 Series"
+    },
+    "MCU/Nations/M4": {
+      "display_name": "M4",
+      "description": "Cortex-M4 Series"
+    },
+    "MCU/Arterytek": {
+      "display_name": "Arterytek",
+      "description": "雅特力"
+    },
+    "MCU/Arterytek/AT32F4": {
+      "display_name": "AT32F4",
+      "description": ""
+    },
+    "MCU/gemini": {
+      "display_name": "gemini",
+      "description": "Gemini Development Board"
+    },
+    "MCU/TI": {
+      "display_name": "Texas Instruments",
+      "description": "德州仪器"
+    },
+    "MCU/TI/MSP430": {
+      "display_name": "MSP430xxx",
+      "description": "MSP430 Series"
+    },
+    "MCU/TI/MSPM0": {
+      "display_name": "MSPM0xxx",
+      "description": "MSPM0 Series"
+    },
+    "MCU/TI/CCXXXX": {
+      "display_name": "CCXXXX Wireless",
+      "description": "CCXXXX Wireless Series (e.g. CC2510,CC1110)"
+    },
+    "RTOS": {
+      "display_name": "RTOS",
+      "description": "实时操作系统模板（Real-Time Operating System Templates）"
+    },
+    "RTOS/FreeRTOS": {
+      "display_name": "FreeRTOS",
+      "description": ""
+    },
+    "RTOS/CMSIS-RTOS_RTX": {
+      "display_name": "CMSIS-RTOS RTX",
+      "description": ""
+    },
+    "RTOS/uCOS-II": {
+      "display_name": "uCOS-II",
+      "description": ""
+    },
+    "RTOS/uCOS-III": {
+      "display_name": "uCOS-III",
+      "description": ""
+    },
+    "RTOS/RT-Thread/Nano": {
+      "display_name": "Nano",
+      "description": ""
+    },
+    "RTOS/ThreadX": {
+      "display_name": "ThreadX",
+      "description": ""
+    },
+    "Board": {
+      "display_name": "Dev Board",
+      "description": "开发板模板（Development Board Templates）"
+    },
+    "Board/K210": {
+      "display_name": "K210",
+      "description": ""
+    },
+    "Board/K210/C++": {
+      "display_name": "Standalone SDK",
+      "description": ""
+    },
+    "Board/WeAct": {
+      "display_name": "WeAct",
+      "description": "WeAct 工作室"
+    },
+    "Board/Nordic": {
+      "display_name": "Nordic BLE Dev Board",
+      "description": ""
+    },
+    "Mine": {
+      "display_name": "我的模板",
+      "description": "qiqqqqq517 自建模板（同时也会出现在 MCU/ST/STM32 对应型号类目下）"
     }
   },
   "template_list": [
     {
-      "file_name": "stm32h723_hal_quickstart.ept",
-      "display_name": "STM32H723VG HAL QuickStart (eIDE 4.1, arm-none-eabi-gcc)",
+      "file_name": "cc2510_cc1110_sdcc_quickstart.ept",
+      "display_name": "CC2510/CC1110 SDCC QuickStart (SDCC)",
       "category": [
-        "STM32"
+        "MCU/TI/CCXXXX",
+        "MCU/8051"
       ],
       "version": "1.0",
-      "author": "qiqqqqq517"
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/cc2510_cc1110_sdcc_quickstart.ept"
     },
     {
       "file_name": "stm32f1xx_cubemx_ucos-ii.ept",
       "display_name": "STM32F103 CubeMX + uCOS-II QuickStart (arm-none-eabi-gcc)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F1",
+        "RTOS/uCOS-II"
       ],
       "version": "1.0",
       "author": "github0null",
       "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f1xx_cubemx_ucos-ii.ept"
     },
     {
+      "file_name": "MSPM0G3507.ept",
+      "display_name": "MSPM0G3507 QuickStart (arm-none-eabi-gcc)",
+      "category": [
+        "MCU/TI/MSPM0"
+      ],
+      "version": "1.0",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/MSPM0G3507.ept"
+    },
+    {
+      "file_name": "MSPM0L1306.ept",
+      "display_name": "MSPM0L1306 QuickStart (arm-none-eabi-gcc)",
+      "category": [
+        "MCU/TI/MSPM0"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/MSPM0L1306.ept"
+    },
+    {
+      "file_name": "MSP-EXP430G2.ept",
+      "display_name": "MSP430G2 QuickStart Demo (msp430-elf-gcc)",
+      "category": [
+        "MCU/TI/MSP430"
+      ],
+      "version": "1.3",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/MSP-EXP430G2.ept"
+    },
+    {
       "file_name": "stm32_ucos-iii.ept",
       "display_name": "STM32G0xx/STM32F1xx/STM32F4xx UCOS-III QuickStart (STM32CubeMX, GCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32G0",
+        "MCU/ST/STM32/STM32F1",
+        "MCU/ST/STM32/STM32F4",
+        "RTOS/uCOS-III"
       ],
       "version": "1.4",
       "author": "github0null",
       "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32_ucos-iii.ept"
     },
     {
+      "file_name": "null",
+      "display_name": "CW32L010 Template",
+      "git_clone_url": "https://github.com/Ankali-Aylina/CW32L010-EIDE-template",
+      "category": [
+        "MCU/PS/CW32"
+      ],
+      "version": "1.0",
+      "author": "Ankali-Aylina"
+    },
+    {
+      "file_name": "gd32vw553_gcc.ept",
+      "display_name": "GD32VW553 GCC Demo",
+      "category": [
+        "MCU/GD32/RISCV/W5"
+      ],
+      "version": "1.0",
+      "author": "P4rfa1t",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/gd32vw553_gcc.ept"
+    },
+    {
+      "file_name": "PY32F002AF15P6TU.ept",
+      "display_name": "PY32F002A quickstart (gcc)",
+      "category": [
+        "MCU/PuYa/F0"
+      ],
+      "version": "1.0",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/PY32F002AF15P6TU.ept"
+    },
+    {
+      "file_name": "null",
+      "display_name": "w801 template (c-sky) (ble) (wifi)",
+      "git_clone_url": "https://github.com/github0null/w801_vsc_eide_template",
+      "category": [
+        "MCU/HLK/W80X"
+      ],
+      "version": "1.0",
+      "author": "github0null"
+    },
+    {
+      "file_name": "cw32f003fx_template.ept",
+      "display_name": "cw32f003fx template (armcc, jlink, RTT_Viewer)",
+      "category": [
+        "MCU/PS/CW32"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/cw32f003fx_template.ept"
+    },
+    {
+      "file_name": "avr_serial_loopback.ept",
+      "display_name": "AVR QuickStart Demo (avr-gcc, ATmega128)",
+      "category": [
+        "MCU/AVR/ATmega"
+      ],
+      "version": "1.3",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/avr_serial_loopback.ept"
+    },
+    {
+      "file_name": "w806_demo.ept",
+      "display_name": "HLK-W806 demo (csky-elfabiv2, riscv, HLK-W806-KIT-V1.0)",
+      "category": [
+        "MCU/HLK/W80X"
+      ],
+      "version": "1.6",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/w806_demo.ept"
+    },
+    {
+      "file_name": "nrf52832_ble_app_templete.ept",
+      "display_name": "nRF52832_xxaa ble app template (s132 6.1.0) (gcc) (armcc)",
+      "category": [
+        "MCU/Nordic/nRF52",
+        "Board/Nordic"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/nrf52832_ble_app_templete.ept"
+    },
+    {
       "file_name": "stm32h750vb_FatFs_FreeRTOS.ept",
       "display_name": "STM32H750VBT6 QSPI_FLASH FreeRTOS FatFs demo (qspi, gcc, FreeRTOS, FatFs)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32H7",
+        "Board/WeAct",
+        "RTOS/FreeRTOS"
       ],
       "version": "1.2",
       "author": "github0null",
@@ -49,7 +480,9 @@
       "file_name": "WeAct_H750_QSPI.eide-template",
       "display_name": "STM32H750VBT6 QSPI_FLASH FreeRTOS blink demo (qspi, gcc, FreeRTOS)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32H7",
+        "Board/WeAct",
+        "RTOS/FreeRTOS"
       ],
       "version": "1.3",
       "author": "github0null",
@@ -59,17 +492,48 @@
       "file_name": "WeAct_H750_bootloader.eide-template",
       "display_name": "STM32H750VBT6 QSPI_FLASH bootloader (qspi, gcc, bootloader)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32H7",
+        "Board/WeAct"
       ],
       "version": "1.2",
       "author": "github0null",
       "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/WeAct_H750_bootloader.eide-template"
     },
     {
+      "file_name": "PFS154-S16.ept",
+      "display_name": "PFS154-S16 quickstart (sdcc, pdk14)",
+      "category": [
+        "MCU/Padauk/MTP"
+      ],
+      "version": "1.0",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/PFS154-S16.ept"
+    },
+    {
+      "file_name": "pic18f2550_demo.eide-template",
+      "display_name": "pic18f2550 demo (sdcc, pic16, gputils)",
+      "category": [
+        "MCU/PIC/PIC16"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/pic18f2550_demo.eide-template"
+    },
+    {
+      "file_name": "pic16f886_demo.eide-template",
+      "display_name": "pic16f886 demo (sdcc, pic14, gputils)",
+      "category": [
+        "MCU/PIC/PIC14"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/pic16f886_demo.eide-template"
+    },
+    {
       "file_name": "stm32f407xx_cpp_demo.eide-template",
       "display_name": "STM32F407xx C++ SDK (gcc toolchain, F407 series, hard floatpoint)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/C++"
       ],
       "version": "1.2",
       "author": "github0null",
@@ -79,7 +543,7 @@
       "file_name": "stm32f030xx_cpp_demo.ept",
       "display_name": "STM32F030 C++ SDK (gcc toolchain, F030 series)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/C++"
       ],
       "version": "1.3",
       "author": "github0null",
@@ -89,7 +553,7 @@
       "file_name": "stm32f100_mdvl_cpp_demo.eide-template",
       "display_name": "STM32F100 C++ SDK (gcc toolchain, MD_VL series)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/C++"
       ],
       "version": "1.2",
       "author": "github0null",
@@ -99,7 +563,7 @@
       "file_name": "stm32f10x_hd_cpp_demo.eide-template",
       "display_name": "STM32F10x C++ SDK (gcc toolchain, high density)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/C++"
       ],
       "version": "1.2",
       "author": "github0null",
@@ -109,17 +573,187 @@
       "file_name": "stm32f10x_md_cpp_demo.eide-template",
       "display_name": "STM32F10x C++ SDK (gcc toolchain, medium density)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/C++"
       ],
       "version": "1.2",
       "author": "github0null",
       "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32f10x_md_cpp_demo.eide-template"
     },
     {
+      "file_name": "k210_demo.eide-template",
+      "display_name": "K210 Standalone SDK (hello world demo)",
+      "category": [
+        "Board/K210/C++"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/k210_demo.eide-template"
+    },
+    {
+      "file_name": "ch554_sdcc.eide-template",
+      "display_name": "CH554 demo (SDCC toolchain)",
+      "category": [
+        "MCU/WCH/8051"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/ch554_sdcc.eide-template"
+    },
+    {
+      "file_name": "HR8P506_demo.ept",
+      "display_name": "HR8P506 QuickStart Demo (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/ES/M0"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/HR8P506_demo.ept"
+    },
+    {
+      "file_name": "hk32f030m_demo.ept",
+      "display_name": "HK32F030Mxx Demo (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/HK/HK32/F0"
+      ],
+      "version": "1.3",
+      "author": "yunline",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/hk32f030m_demo.ept"
+    },
+    {
+      "file_name": "gd_gd32f103c8_demo.eide-template",
+      "display_name": "GD32F1xx Demo",
+      "category": [
+        "MCU/GD32/F1"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/gd_gd32f103c8_demo.eide-template"
+    },
+    {
+      "file_name": "gd32vf103_demo.eide-template",
+      "display_name": "GD32VF103 Demo (RISC-V)",
+      "category": [
+        "MCU/GD32/RISCV/F1"
+      ],
+      "version": "1.3",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/gd32vf103_demo.eide-template"
+    },
+    {
+      "file_name": "nuvoton_mini58xx_demo.eide-template",
+      "display_name": "MINI58xx Demo",
+      "category": [
+        "MCU/Nuvoton/M0"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/nuvoton_mini58xx_demo.eide-template"
+    },
+    {
+      "file_name": "NUC029XAN_demo.eide-template",
+      "display_name": "NUC029XAN Demo",
+      "category": [
+        "MCU/Nuvoton/M0"
+      ],
+      "version": "1.2",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/NUC029XAN_demo.eide-template"
+    },
+    {
+      "file_name": "HC32L110_demo.ept",
+      "display_name": "HC32L110 Demo (ARMCC, GCC)",
+      "category": [
+        "MCU/HDSC/HC32L"
+      ],
+      "version": "1.5",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/HC32L110_demo.ept"
+    },
+    {
+      "file_name": "HC32L136_demo.ept",
+      "display_name": "HC32L136 Demo (for HC32L136K8TA)",
+      "category": [
+        "MCU/HDSC/HC32L"
+      ],
+      "version": "1.2",
+      "author": "CAESIUS-TIM,github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/HC32L136_demo.ept"
+    },
+    {
+      "file_name": "mcs51_dht11_sdcc_quickstart.ept",
+      "display_name": "8051 QuickStart With DHT11 Sensor (SDCC Toolchain)",
+      "category": [
+        "MCU/8051"
+      ],
+      "version": "1.5",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/mcs51_dht11_sdcc_quickstart.ept"
+    },
+    {
+      "file_name": "89c52_sdcc_demo.ept",
+      "display_name": "8051 QuickStart (SDCC Toolchain)",
+      "category": [
+        "MCU/8051"
+      ],
+      "version": "1.3",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/89c52_sdcc_demo.ept"
+    },
+    {
+      "file_name": "stc15_keilc51.ept",
+      "display_name": "STC15xx QuickStart (KeilC51)",
+      "category": [
+        "MCU/STC/STC15"
+      ],
+      "version": "1.4",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stc15_keilc51.ept"
+    },
+    {
+      "file_name": "stc15_sdcc.ept",
+      "display_name": "STC15xx QuickStart (SDCC Toolchain)",
+      "category": [
+        "MCU/STC/STC15"
+      ],
+      "version": "1.3",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stc15_sdcc.ept"
+    },
+    {
+      "file_name": "stc8g_stc8h_sdcc.ept",
+      "display_name": "STC8G/H QuickStart (SDCC Toolchain)",
+      "category": [
+        "MCU/STC/STC8"
+      ],
+      "version": "1.2",
+      "author": "yunline",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stc8g_stc8h_sdcc.ept"
+    },
+    {
+      "file_name": "stc8h8g-gnu-sdcc-quickstart.ept",
+      "display_name": "STC8G/H QuickStart (SDCC + Binutils Toolchain)",
+      "category": [
+        "MCU/STC/STC8"
+      ],
+      "version": "1.1",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stc8h8g-gnu-sdcc-quickstart.ept"
+    },
+    {
+      "file_name": "n76e003_demo.eide-template",
+      "display_name": "N76E003 Demo (Keil C51 Toolchain)",
+      "category": [
+        "MCU/Nuvoton/8051/N7XE"
+      ],
+      "version": "1.4",
+      "author": "github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/n76e003_demo.eide-template"
+    },
+    {
       "file_name": "stm8s103f3_quickstart_cosmic.ept",
       "display_name": "STM8S Quickstart (COSMIC Compiler)",
       "category": [
-        "STM32"
+        "MCU/ST/STM8/STM8S"
       ],
       "version": "1.2",
       "author": "github0null",
@@ -129,7 +763,7 @@
       "file_name": "stm8s103f3_quickstart_iar.ept",
       "display_name": "STM8S Quickstart (IARSTM8)",
       "category": [
-        "STM32"
+        "MCU/ST/STM8/STM8S"
       ],
       "version": "1.4",
       "author": "github0null",
@@ -139,17 +773,27 @@
       "file_name": "stm8s103f3_quickstart_sdcc.ept",
       "display_name": "STM8S103F3 Quickstart (SDCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM8/STM8S"
       ],
       "version": "1.5",
       "author": "github0null",
       "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm8s103f3_quickstart_sdcc.ept"
     },
     {
+      "file_name": "mm32f0160_quickstart.eide-template.ept",
+      "display_name": "MM32F0160 Demo (ARM GCC Toolchain)",
+      "category": [
+        "MCU/MindMotion/MM32F"
+      ],
+      "version": "1.1",
+      "author": "AllenMaa",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/mm32f0160_quickstart.eide-template.ept"
+    },
+    {
       "file_name": "stm32f1xx_blink_demo.ept",
       "display_name": "STM32F1xx SPL Demo (ARMCC, STM32F10x StdPeriph Lib V3.5.0)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F1"
       ],
       "version": "1.5",
       "author": "github0null",
@@ -159,7 +803,7 @@
       "file_name": "stm32f1xx_cubemx.ept",
       "display_name": "STM32F1xx CubeMX Demo (STM32CubeMX, GCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F1"
       ],
       "version": "1.4",
       "author": "github0null",
@@ -169,7 +813,7 @@
       "file_name": "stm32f4xx_cubemx.ept",
       "display_name": "STM32F407 CubeMX Demo (STM32CubeMX, GCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F4"
       ],
       "version": "1.5",
       "author": "github0null",
@@ -179,7 +823,8 @@
       "file_name": "stm32_ucosii_gcc.ept",
       "display_name": "STM32F103C8T6 Blink Demo (uCOS-II, SPL, GCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F1",
+        "RTOS/uCOS-II"
       ],
       "version": "1.2",
       "author": "Mecc,github0null",
@@ -189,7 +834,8 @@
       "file_name": "stm32_ucosii_armcc.ept",
       "display_name": "STM32F103C8T6 Blink Demo (uCOS-II, SPL, ARMCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F1",
+        "RTOS/uCOS-II"
       ],
       "version": "1.0",
       "author": "Mecc",
@@ -199,7 +845,8 @@
       "file_name": "stm32_rtx_armcc.ept",
       "display_name": "STM32F103C8T6 Blink Demo (CMSIS-RTOS RTX, SPL, ARMCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F1",
+        "RTOS/CMSIS-RTOS_RTX"
       ],
       "version": "1.0",
       "author": "Mecc",
@@ -209,7 +856,8 @@
       "file_name": "stm32_rtx_gcc.ept",
       "display_name": "STM32F103C8T6 Blink Demo (CMSIS-RTOS RTX, SPL, GCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F1",
+        "RTOS/CMSIS-RTOS_RTX"
       ],
       "version": "1.0",
       "author": "Mecc",
@@ -219,7 +867,8 @@
       "file_name": "stm32f4xx_rtx_gcc.ept",
       "display_name": "STM32F407VGT6 Blink Demo (CMSIS-RTOS RTX, SPL, GCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F4",
+        "RTOS/CMSIS-RTOS_RTX"
       ],
       "version": "1.0",
       "author": "Mecc",
@@ -229,7 +878,7 @@
       "file_name": "stm32f4xx_gcc.ept",
       "display_name": "STM32F407VGT6 Blink Demo (SPL, GCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F4"
       ],
       "version": "1.0",
       "author": "Mecc",
@@ -239,7 +888,8 @@
       "file_name": "stm32_rtthread_armcc.ept",
       "display_name": "STM32F103C8T6 Blink Demo (RT-Thread, SPL, ARMCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F1",
+        "RTOS/RT-Thread/Nano"
       ],
       "version": "1.0",
       "author": "Mecc",
@@ -249,11 +899,482 @@
       "file_name": "stm32_rtthread_gcc.ept",
       "display_name": "STM32F103C8T6 Blink Demo (RT-Thread, SPL, GCC)",
       "category": [
-        "STM32"
+        "MCU/ST/STM32/STM32F1",
+        "RTOS/RT-Thread/Nano"
       ],
       "version": "1.0",
       "author": "Mecc",
       "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/stm32_rtthread_gcc.ept"
+    },
+    {
+      "file_name": "ch58x.ept",
+      "display_name": "CH58x demo (GCC Toolchain)",
+      "category": [
+        "MCU/WCH/RISC-V"
+      ],
+      "version": "1.2",
+      "author": "zerosensei,github0null",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/ch58x.ept"
+    },
+    {
+      "file_name": "ch543_eide_sdcc_demo.ept",
+      "display_name": "ch543 demo (SDCC Toolchain)",
+      "category": [
+        "MCU/WCH/8051"
+      ],
+      "version": "1.2",
+      "author": "taoyukai",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/ch543_eide_sdcc_demo.ept"
+    },
+    {
+      "file_name": "ch32f103_template.ept",
+      "display_name": "CH32F103 (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/WCH/ARM"
+      ],
+      "version": "1.1",
+      "author": "yunline",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/ch32f103_template.ept"
+    },
+    {
+      "file_name": "ch32l103_template.ept",
+      "display_name": "CH32L103 (GCC Toolchain)",
+      "category": [
+        "MCU/WCH/RISC-V"
+      ],
+      "version": "1.0",
+      "author": "yunline",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/ch32l103_template.ept"
+    },
+    {
+      "file_name": "CH32V103_demo.ept",
+      "display_name": "ch32v103 demo (GCC Toolchain)",
+      "category": [
+        "MCU/WCH/RISC-V"
+      ],
+      "version": "1.3",
+      "author": "stars-under",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/CH32V103_demo.ept"
+    },
+    {
+      "file_name": "N32A455_demo.ept",
+      "display_name": "N32A455 Demo (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/Nations/M4"
+      ],
+      "version": "1.0",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32A455_demo.ept"
+    },
+    {
+      "file_name": "N32G45x_demo.ept",
+      "display_name": "N32G45x Demo (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/Nations/M4"
+      ],
+      "version": "1.1",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32G45x_demo.ept"
+    },
+    {
+      "file_name": "N32G4FR_demo.ept",
+      "display_name": "N32G4FR Demo (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/Nations/M4"
+      ],
+      "version": "1.2",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32G4FR_demo.ept"
+    },
+    {
+      "file_name": "N32G43x_demo.ept",
+      "display_name": "N32G43x Demo (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/Nations/M4"
+      ],
+      "version": "1.1",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32G43x_demo.ept"
+    },
+    {
+      "file_name": "N32L43x_demo.ept",
+      "display_name": "N32L43x Demo (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/Nations/M4"
+      ],
+      "version": "1.1",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32L43x_demo.ept"
+    },
+    {
+      "file_name": "N32L40x_demo.ept",
+      "display_name": "N32L40x Demo (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/Nations/M4"
+      ],
+      "version": "1.1",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32L40x_demo.ept"
+    },
+    {
+      "file_name": "N32G430_demo.ept",
+      "display_name": "N32G430 Demo (ARMCC, GCC toolchain)",
+      "category": [
+        "MCU/Nations/M4"
+      ],
+      "version": "1.1",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32G430_demo.ept"
+    },
+    {
+      "file_name": "N32G401_demo.ept",
+      "display_name": "N32G401 Demo (ARMCC)",
+      "category": [
+        "MCU/Nations/M4"
+      ],
+      "version": "1.0",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32G401_demo.ept"
+    },
+    {
+      "file_name": "N32G032_demo.ept",
+      "display_name": "N32G032 Demo (ARMCC)",
+      "category": [
+        "MCU/Nations/M0"
+      ],
+      "version": "1.1",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32G032_demo.ept"
+    },
+    {
+      "file_name": "N32G031_demo.ept",
+      "display_name": "N32G031 Demo (ARMCC)",
+      "category": [
+        "MCU/Nations/M0"
+      ],
+      "version": "1.2",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32G031_demo.ept"
+    },
+    {
+      "file_name": "N32G030_demo.ept",
+      "display_name": "N32G030 Demo (ARMCC)",
+      "category": [
+        "MCU/Nations/M0"
+      ],
+      "version": "1.1",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32G030_demo.ept"
+    },
+    {
+      "file_name": "N32G003_demo.ept",
+      "display_name": "N32G003 Demo (ARMCC)",
+      "category": [
+        "MCU/Nations/M0"
+      ],
+      "version": "1.0",
+      "author": "Persama",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/N32G003_demo.ept"
+    },
+    {
+      "file_name": "ch32v307_eide_hello_world.ept",
+      "display_name": "ch32v307 hello world (GCC Toolchain)",
+      "category": [
+        "MCU/WCH/RISC-V"
+      ],
+      "version": "1.2",
+      "author": "taoyukai",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/ch32v307_eide_hello_world.ept"
+    },
+    {
+      "file_name": "ch32v003_eide_hello_world.ept",
+      "display_name": "ch32v003 hello world (GCC Toolchain)",
+      "category": [
+        "MCU/WCH/RISC-V"
+      ],
+      "version": "1.2",
+      "author": "taoyukai,smalllin0",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/ch32v003_eide_hello_world.ept"
+    },
+    {
+      "file_name": "ch32v203_eide_hello_world.ept",
+      "display_name": "ch32v203 hello world (GCC Toolchain)",
+      "category": [
+        "MCU/WCH/RISC-V"
+      ],
+      "version": "1.1",
+      "author": "taoyukai",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/ch32v203_eide_hello_world.ept"
+    },
+    {
+      "file_name": "ch32v208_eide_hello_world.ept",
+      "display_name": "ch32v208 hello world (GCC Toolchain)",
+      "category": [
+        "MCU/WCH/RISC-V"
+      ],
+      "version": "1.0",
+      "author": "taoyukai",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/ch32v208_eide_hello_world.ept"
+    },
+    {
+      "file_name": "at32f421_eide_hello_world.ept",
+      "display_name": "at32f421 hello world (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "hexone2086",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f421_eide_hello_world.ept"
+    },
+    {
+      "file_name": "PIC32MZ1024EFG144.ept",
+      "display_name": "PIC32MZ1024EFG144 Demo",
+      "version": "1.0",
+      "category": [
+        "MCU/PIC/PIC32"
+      ],
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/PIC32MZ1024EFG144.ept"
+    },
+    {
+      "file_name": "gemini.ept",
+      "display_name": "Gemini Development Board Demo",
+      "version": "1.0",
+      "category": [
+        "MCU/gemini"
+      ],
+      "author": "eatradish",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/gemini.ept"
+    },
+    {
+      "file_name": "at32f403_template.ept",
+      "display_name": "at32f403 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f403_template.ept"
+    },
+    {
+      "file_name": "at32f403a_template.ept",
+      "display_name": "at32f403a template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f403a_template.ept"
+    },
+    {
+      "file_name": "at32f407_template.ept",
+      "display_name": "at32f407 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f407_template.ept"
+    },
+    {
+      "file_name": "at32f413_template.ept",
+      "display_name": "at32f413 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f413_template.ept"
+    },
+    {
+      "file_name": "at32f415_template.ept",
+      "display_name": "at32f415 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f415_template.ept"
+    },
+    {
+      "file_name": "at32f421_template.ept",
+      "display_name": "at32f421 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f421_template.ept"
+    },
+    {
+      "file_name": "at32f423_template.ept",
+      "display_name": "at32f423 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f423_template.ept"
+    },
+    {
+      "file_name": "at32f425_template.ept",
+      "display_name": "at32f425 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f425_template.ept"
+    },
+    {
+      "file_name": "at32f435_template.ept",
+      "display_name": "at32f435 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f435_template.ept"
+    },
+    {
+      "file_name": "at32f437_template.ept",
+      "display_name": "at32f437 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f437_template.ept"
+    },
+    {
+      "file_name": "at32l021_template.ept",
+      "display_name": "at32l021 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32l021_template.ept"
+    },
+    {
+      "file_name": "at32wb415_template.ept",
+      "display_name": "at32wb415 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32wb415_template.ept"
+    },
+    {
+      "file_name": "at32a403a_template.ept",
+      "display_name": "at32a403a template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32a403a_template.ept"
+    },
+    {
+      "file_name": "at32a423_template.ept",
+      "display_name": "at32a423 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32a423_template.ept"
+    },
+    {
+      "file_name": "at32m412_template.ept",
+      "display_name": "at32m412 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32m412_template.ept"
+    },
+    {
+      "file_name": "at32m416_template.ept",
+      "display_name": "at32m416 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32m416_template.ept"
+    },
+    {
+      "file_name": "at32f402_template.ept",
+      "display_name": "at32f402 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f402_template.ept"
+    },
+    {
+      "file_name": "at32f405_template.ept",
+      "display_name": "at32f405 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f405_template.ept"
+    },
+    {
+      "file_name": "at32f490_template.ept",
+      "display_name": "at32f490 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f490_template.ept"
+    },
+    {
+      "file_name": "at32f455_template.ept",
+      "display_name": "at32f455 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f455_template.ept"
+    },
+    {
+      "file_name": "at32f456_template.ept",
+      "display_name": "at32f456 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f456_template.ept"
+    },
+    {
+      "file_name": "at32f457_template.ept",
+      "display_name": "at32f457 template (GCC Toolchain)",
+      "category": [
+        "MCU/Arterytek/AT32F4"
+      ],
+      "version": "1.0",
+      "author": "bobyang521",
+      "download_url": "https://raw-github.em-ide.com/github0null/eide-templates/master/at32f457_template.ept"
+    },
+    {
+      "file_name": "stm32h723_hal_quickstart.ept",
+      "display_name": "STM32H723VG HAL QuickStart (eIDE 4.1, arm-none-eabi-gcc)",
+      "category": [
+        "MCU/ST/STM32/STM32H7",
+        "Mine"
+      ],
+      "version": "1.0",
+      "author": "qiqqqqq517",
+      "download_url": "https://raw-github.em-ide.com/qiqqqqq517/eide-cmsis-packs/main/stm32h723_hal_quickstart.ept"
     }
   ]
 }
